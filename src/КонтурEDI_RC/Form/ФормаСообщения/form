@@ -142,7 +142,7 @@
 {1,0}
 },8,2,0,2,0,1,
 {5,b896346f-5b51-4752-beb3-f1537c323bc5,5,1,1,
-{6,a834b79a-f888-4954-8d95-c094d2f1ffd4,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,b0a3522f-ef6f-4d8d-9b37-97033f517022,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
 {6,4294967295,00000000-0000-0000-0000-000000000000,142,
 {1,0,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},6,
 {1,1,
@@ -152,7 +152,7 @@
 {"ru","Закрыть"}
 }
 },1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,a834b79a-f888-4954-8d95-c094d2f1ffd4,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,b0a3522f-ef6f-4d8d-9b37-97033f517022,
 {8,"ОсновныеДействияФормыЗакрыть",0,2,
 {1,1,
 {"ru","Закрыть"}
@@ -9284,7 +9284,7 @@ b7QwsDLWMIix7sAXxoyjSZlyAwACDADjvUes7rU7JAAAAABJRU5ErkJggg==}
 {1,0}
 },8,2,0,0,1,1,
 {5,a492e99e-c977-4ada-b1ff-5e9e27cfbd3e,13,1,2,
-{6,156532ec-8b33-44a8-9f39-358cfced8506,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,360cca73-4d6c-464e-a948-22fc6557f028,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
 {6,4294967295,00000000-0000-0000-0000-000000000000,99,
 {1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},6,
 {1,1,
@@ -9294,7 +9294,7 @@ b7QwsDLWMIix7sAXxoyjSZlyAwACDADjvUes7rU7JAAAAABJRU5ErkJggg==}
 {"ru","Вывести список"}
 }
 },
-{6,7c1aa8b9-aa44-4e34-a259-2a960cbfc10f,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,4f0ef59d-e385-4dec-9109-c94a047e2914,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
 {6,4294967295,00000000-0000-0000-0000-000000000000,97,
 {1,99,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},6,
 {1,1,
@@ -9304,11 +9304,11 @@ b7QwsDLWMIix7sAXxoyjSZlyAwACDADjvUes7rU7JAAAAABJRU5ErkJggg==}
 {"ru","Настройка списка"}
 }
 },1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,7c1aa8b9-aa44-4e34-a259-2a960cbfc10f,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,2,4f0ef59d-e385-4dec-9109-c94a047e2914,
 {8,"Действие",0,2,
 {1,1,
 {"#","Действие"}
-},0,a492e99e-c977-4ada-b1ff-5e9e27cfbd3e,12,1e2,0,0,1,0,0,0,0},156532ec-8b33-44a8-9f39-358cfced8506,
+},0,a492e99e-c977-4ada-b1ff-5e9e27cfbd3e,12,1e2,0,0,1,0,0,0,0},360cca73-4d6c-464e-a948-22fc6557f028,
 {8,"Действие1",0,2,
 {1,1,
 {"#","Действие1"}
@@ -18563,7 +18563,31 @@ XFhJtSKWz30vMgcItzCmDw==},0}
 {1,0}
 },8,2,0,0,1,1,
 {5,267f370c-2dec-42e5-a647-5d80f54bba71,12,1,7,
-{6,3969380f-7235-4291-8999-cf9ce5e88385,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,43ccb774-d9c4-4f03-85ce-3f4184d275b8,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельТранспортныеУпаковкиУдалитьУпаковку",
+{1,"КоманднаяПанельТранспортныеУпаковкиУдалитьУпаковку",
+{1,1,
+{"ru","Удалить упаковку"}
+},
+{1,1,
+{"ru","Удалить упаковку"}
+},
+{1,1,
+{"ru","Удалить упаковку"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},1,
+{3,1,
+{0,167a160b-fa48-4337-87ab-7e0fe95c4b5a},"",-1,-1,1,0}
+},
+{6,ac6924af-448b-49d4-b26c-d6c6656663c5,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
+{6,6a328d8d-b316-4834-8c73-ac0b4e097d3b,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
+{6,6d9183a4-d6b3-4e4c-9c00-f971340e70c3,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельТранспортныеУпаковкиДобавитьУпаковку",
 {1,"КоманднаяПанельТранспортныеУпаковкиДобавитьУпаковку",
 {1,1,
@@ -18888,9 +18912,29 @@ cBr9xEzo49KLAYj/KT03+ikD/ITTTxngJ5x+ygA/4fT/A1kznmX6dSVCAAAAAElF
 TkSuQmCC}
 },0}
 },
-{6,14825ce5-f796-46ec-bccc-7ccaaef250a2,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{6,980d9108-a1d4-4680-b8b8-f8572f0cc167,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
 {1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
-{6,590928a3-3a8b-47a1-97bd-3e8ad3ceafe8,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,1d982a69-471c-4a3d-81f9-862d46fb3287,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КоманднаяПанельТранспортныеУпаковкиИзменитьКоличество",
+{1,"КоманднаяПанельТранспортныеУпаковкиИзменитьКоличество",
+{1,1,
+{"ru","Изменить количество"}
+},
+{1,1,
+{"ru","Изменить количество"}
+},
+{1,1,
+{"ru","Изменить количество"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},1,
+{3,1,
+{0,da0c4924-973c-4ef0-9dcf-f1fc3307e5e2},"",-1,-1,1,0}
+},
+{6,a3edc9d1-7b52-4ec8-b771-0d094b443247,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КоманднаяПанельТранспортныеУпаковкиДобавитьВложеннуюУпаковку",
 {1,"КоманднаяПанельТранспортныеУпаковкиДобавитьВложеннуюУпаковку",
 {1,1,
@@ -19195,72 +19239,28 @@ jOzzEXuH6zzo2+kbEQDbaeRnGHGHESDsts9GryNStmbsdiBt/1zZkt3bB9tf9vkN
 p290AGyny/3C5rLPrpa2d0y47P2bLn9sr+P4/wN1hhbRVQQg2gAAAABJRU5ErkJg
 gg==}
 },0}
-},
-{6,af1c07f8-d887-40d7-b4b3-8a0bf94352e0,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельТранспортныеУпаковкиИзменитьКоличество",
-{1,"КоманднаяПанельТранспортныеУпаковкиИзменитьКоличество",
-{1,1,
-{"ru","Изменить количество"}
-},
-{1,1,
-{"ru","Изменить количество"}
-},
-{1,1,
-{"ru","Изменить количество"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
 },1,
-{3,1,
-{0,da0c4924-973c-4ef0-9dcf-f1fc3307e5e2},"",-1,-1,1,0}
-},
-{6,de11f030-1267-46f1-934e-83002f4a8fef,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
-{6,4e225992-2674-48be-a8ba-108287fa4f13,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КоманднаяПанельТранспортныеУпаковкиУдалитьУпаковку",
-{1,"КоманднаяПанельТранспортныеУпаковкиУдалитьУпаковку",
-{1,1,
-{"ru","Удалить упаковку"}
-},
-{1,1,
-{"ru","Удалить упаковку"}
-},
-{1,1,
-{"ru","Удалить упаковку"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},1,
-{3,1,
-{0,167a160b-fa48-4337-87ab-7e0fe95c4b5a},"",-1,-1,1,0}
-},
-{6,1179b191-9855-4b17-9361-ff38492c0cb7,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,7,3969380f-7235-4291-8999-cf9ce5e88385,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,7,6d9183a4-d6b3-4e4c-9c00-f971340e70c3,
 {8,"ДобавитьУпаковку",0,1,
 {1,1,
 {"ru","Добавить упаковку"}
-},1,267f370c-2dec-42e5-a647-5d80f54bba71,2,1e2,0,3,1,0,0,0,0},590928a3-3a8b-47a1-97bd-3e8ad3ceafe8,
+},1,267f370c-2dec-42e5-a647-5d80f54bba71,2,1e2,0,3,1,0,0,0,0},a3edc9d1-7b52-4ec8-b771-0d094b443247,
 {8,"ДобавитьВложеннуюУпаковку",0,1,
 {1,1,
 {"ru","Добавить вложенную упаковку"}
-},1,267f370c-2dec-42e5-a647-5d80f54bba71,1,1e2,0,0,0,0,0,0,0},de11f030-1267-46f1-934e-83002f4a8fef,
+},1,267f370c-2dec-42e5-a647-5d80f54bba71,1,1e2,0,0,0,0,0,0,0},ac6924af-448b-49d4-b26c-d6c6656663c5,
 {8,"Разделитель",0,1,
-{1,0},0,267f370c-2dec-42e5-a647-5d80f54bba71,4,1e2,2,0,1,0,0,0,0},af1c07f8-d887-40d7-b4b3-8a0bf94352e0,
+{1,0},0,267f370c-2dec-42e5-a647-5d80f54bba71,4,1e2,2,0,1,0,0,0,0},1d982a69-471c-4a3d-81f9-862d46fb3287,
 {8,"ИзменитьКоличество",0,1,
 {1,1,
 {"ru","Изменить количество товара"}
-},1,267f370c-2dec-42e5-a647-5d80f54bba71,7,1e2,0,0,1,0,0,0,0},14825ce5-f796-46ec-bccc-7ccaaef250a2,
+},1,267f370c-2dec-42e5-a647-5d80f54bba71,7,1e2,0,0,1,0,0,0,0},6a328d8d-b316-4834-8c73-ac0b4e097d3b,
 {8,"Разделитель1",0,1,
-{1,0},0,267f370c-2dec-42e5-a647-5d80f54bba71,6,1e2,2,0,1,0,0,0,0},4e225992-2674-48be-a8ba-108287fa4f13,
+{1,0},0,267f370c-2dec-42e5-a647-5d80f54bba71,6,1e2,2,0,1,0,0,0,0},43ccb774-d9c4-4f03-85ce-3f4184d275b8,
 {8,"УдалитьУпаковку",0,1,
 {1,1,
 {"ru","Удалить упаковку"}
-},1,267f370c-2dec-42e5-a647-5d80f54bba71,5,1e2,0,0,1,0,0,0,0},1179b191-9855-4b17-9361-ff38492c0cb7,
+},1,267f370c-2dec-42e5-a647-5d80f54bba71,5,1e2,0,0,1,0,0,0,0},980d9108-a1d4-4680-b8b8-f8572f0cc167,
 {8,"Разделитель2",0,1,
 {1,0},0,267f370c-2dec-42e5-a647-5d80f54bba71,12,1e2,2,0,1,0,0,0,0},
 {-1,0,
@@ -24598,41 +24598,7 @@ b7QwsDLWMIix7sAXxoyjSZlyAwACDADjvUes7rU7JAAAAABJRU5ErkJggg==}
 }
 },8,2,0,0,1,1,
 {5,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,16,1,13,
-{6,56e243cf-371f-4407-9222-92b19866c473,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КнопкаДополнительныеДействияФормыНажатие",
-{1,"КнопкаДополнительныеДействияФормыНажатие",
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},7,
-{1,1,
-{"ru","Прекратить обработку заказа"}
-},
-{1,1,
-{"ru","Прекратить обработку заказа"}
-},
-{3,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuklEQVR4Xs2TMQ6D
-IBiFfwzaOzi4MrDYU3ABO9uj1blegFPo4oAX0COImtAiabuABlz6lheSl+/lzwtI
-KQVnhLVV1SN/W+MJuJblvcVg1BTFDXxU109diD4AWNcVQvRHgGVZNu+6bhdAKXWf
-IIQAxtgugHMOhJDvO/I+wWTtJ2RZtjXsSGd01r1Cmqbwg86bx3Fiaz9eQUoDQCgK
-m3GepQlhHAaYJgNIksshIO970bpC4zjYALm209/5BZ9oV6cSeBbHAAAAAElFTkSu
-QmCC}
-},0}
-},
-{6,bf59845e-b1ba-445a-8a66-486d3ed6232d,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,3e686bf3-ecb3-41e6-8980-59f844a67a70,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КнопкаДополнительныеДействияФормыНажатие",
 {1,"КнопкаДополнительныеДействияФормыНажатие",
 {1,1,
@@ -24675,45 +24641,7 @@ CqUZpA3dJHFp1V5Rl4a6AJybqs3Q9LDtht5+U8zz7VakUKtHYsE/HXVwRLIxOWFo
 EdG7RC6u3BXgxMofAQYAtZVpZHPy1akAAAAASUVORK5CYII=}
 },0}
 },
-{6,4f3f2b7c-e900-4693-9e08-d3c36305bdac,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КнопкаДополнительныеДействияФормыНажатие",
-{1,"КнопкаДополнительныеДействияФормыНажатие",
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},7,
-{1,1,
-{"ru","Прекратить обработку сообщения"}
-},
-{1,1,
-{"ru","Прекратить обработку сообщения"}
-},
-{3,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuklEQVR4Xs2TMQ6D
-IBiFfwzaOzi4MrDYU3ABO9uj1blegFPo4oAX0COImtAiabuABlz6lheSl+/lzwtI
-KQVnhLVV1SN/W+MJuJblvcVg1BTFDXxU109diD4AWNcVQvRHgGVZNu+6bhdAKXWf
-IIQAxtgugHMOhJDvO/I+wWTtJ2RZtjXsSGd01r1Cmqbwg86bx3Fiaz9eQUoDQCgK
-m3GepQlhHAaYJgNIksshIO970bpC4zjYALm209/5BZ9oV6cSeBbHAAAAAElFTkSu
-QmCC}
-},0}
-},
-{6,e4ad98bd-ed73-4095-987e-ac49a49f1bf4,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
-{6,f5f9d650-30c6-42e1-bdb0-9ce09c7e6fb7,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
-{6,dd47a807-4611-4024-9140-982aca98f6fa,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,2ad6821b-894b-4734-ad22-9b47e6d2ae99,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КнопкаДополнительныеДействияФормыНажатие",
 {1,"КнопкаДополнительныеДействияФормыНажатие",
 {1,1,
@@ -24753,7 +24681,7 @@ vSeFJknCcRAwB46DAK11YfurMozNcQZK4+x5HrVajTAMGQwGeJ5Hu90uevAP7ljr
 4R+pyrAAAAAASUVORK5CYII=}
 },0}
 },
-{6,aa5cf3a5-83df-4626-9c76-5f35338b8033,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,6133d01f-978a-4b72-8a62-f3a3ef29c002,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КнопкаДополнительныеДействияФормыНажатие",
 {1,"КнопкаДополнительныеДействияФормыНажатие",
 {1,1,
@@ -24771,28 +24699,68 @@ vSeFJknCcRAwB46DAK11YfurMozNcQZK4+x5HrVajTAMGQwGeJ5Hu90uevAP7ljr
 }
 },7,
 {1,1,
-{"ru","Перезаполнить документ в 1С"}
+{"ru","Показать XML файл"}
 },
 {1,1,
-{"ru","Перезаполнить документ в 1С"}
+{"ru","Показать XML файл"}
 },
 {3,3,
 {0},"",-1,-1,0,
 {
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK
-6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGdSURBVDjL
-lZNLSwJhFIa1Rb8iIWhRQUlluuoftDEtC5TKSgINily1CmoT0kJBqwlSaBGBLVxI
-tGgZQQQVFe3bKN7wOjqO2tucwRGvqAMPMzDf+8w5ZzgyADLhGhJQCWi6MCwwQBkJ
-WVWg4jguVSqVKuVyGe0Q3sPtdruaJZJAQ+FcLgeWZWuk02kkk0lEIhFREg6H4fF4
-GiR0yUlABwqFAorFongnstksUqkUotGoKMjn86CPMAwjSloEFJYgAQUymQxisVhL
-S9WZyBsEQhu1A/RMfUutxONxsZJQKNRZ0Ey9hCqheSQSid4F9RJqh2ZCor4EBM/z
-4lxIQvQtoCp2HtexfW+CObAM062uu4BCElSBJWjEzc8Vrr8Y6L3zvQsoTKz6F+H7
-PAPz7oLRp8eodmSjp7/geDqG2b8Me9CK8zcnXK8O7AWsmDtUF9UHUw/1gr+2O8Bz
-sPm3YLvbhPPlBI7nI6xc6jC9P/Gr3B0flHZhVpgyKwQ6LpPFtwaTdwmGCy0MpwsV
-WsD6ZVKQpNs6z9iV35PWsY/q6iso+w9crJoc0rRwaAAAAABJRU5ErkJggg==}
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhk
+iAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3Nj
+YXBlLm9yZ5vuPBoAAAG5SURBVDiNlZMxi9RQFIW/e19mF3ELQVCwUNCtt3ALt7O1
+UlgHG0t/kpW1lTBbDLZjYSU4CKMjrIWIisVOa0gmL8l71yLJ7GRmFbxwICHvfOe8
+l0TMDBG5BRzyf/PJzL4m7c1hUfiTsvSIKCIgIkhzgWw4kyRhMBg8BlYAvPdkeYaq
+wzldAXpq14qcI1cAUcE5h6o2EkFUe+bOeCFARc7NrUSkAW1sR1UvaNACXGdea9FB
+unXrDXQTwNlvqhdvG1AZ8c/foKr4l+9gkW4Beg3iqylkJTsPDlBV4rcz3I0riAg7
+R3fIT6bo5V32nt3fboAIIIgo6pptVJ9/4W5faxITh4WIlfVfGgC7T49gkeJfzxjs
+X6f6+JNLD+8iIizHH9h7cg9382r/ozAzgOPCe8vy3IqisLIsraoqq+vaQggWY7Sq
+qizPc0vT1Lz3ETg2s36D7l1vKoRAmqYsFguSJGE2m02B014D770tl8ut9BCCZVlm
+8/ncsiyz8Xj8HTgAxMw2D7E/IoKZUdfNwU0mkx/D4fARMLc2edWgDmErOcZoIQQr
+iiKORqP368mdpP2d99uH/5pT4MsquZ0/U/H9Hz5P2jYAAAAASUVORK5CYII=}
 },0}
 },
-{6,24bf1aec-532b-4767-94e9-8ca969f8bbf1,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,3c0b55f3-62bf-474a-9116-8051acb73a05,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КнопкаДополнительныеДействияФормыНажатие",
+{1,"КнопкаДополнительныеДействияФормыНажатие",
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},7,
+{1,1,
+{"ru","Переотправить данные об алкоголе"}
+},
+{1,1,
+{"ru","Переотправить данные об алкоголе"}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhk
+iAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGUSURBVDiN
+nZM/a8JAGIffpEeTNDFylVYhCZKhuLh1KFLoV3Bwahc/QYcODkIXtw5S3Do4qEvB
+SejQtV3bqYtgq0sVBFMQjJ7xT5Lr5KLXVPzBLcdzD7/3uOMopbCeYrF443meiTEe
+UkrpZDI59H2/lcvlHtZZtHEaAHRdT5qmmbBtGyRJAowxtFotFsoWIITkUCi01DQN
+FEUB27YBISRuJcjn85FEr3c2bjT2Zd+njixT2/P4KcfFIJ3+X9Dv9ye9dvv4o9k8
+OJVlPwbA9QjhOqkUumQ04Nc3arXaXAyHRzIhELUs/sSyuCNCQFBVizXChgAAQNX1
+d8TzIACABgA0EvH3DKOytSAcj1+hTOZzGI3St0TC/U6nn25LpXsWC5TSP1elXH6u
+Vat3QQyzwSqionz5lHaCGOY7WIUQQhzHCRQENlgsFuA4znBngaqqCGOc3ElQKBQQ
+QigqiqIZJOBYv7Fer18bhnE+GAwuBEEgkiS9dLvdx2w2+7rOMi/Rdd3uaDTSlsvl
+1HXd+Xg87s9msx8W+wtNAsYdXG2+UAAAAABJRU5ErkJggg==}
+},0}
+},
+{6,528b2f55-9237-49ba-bc20-c652a23556de,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КнопкаДополнительныеДействияФормыНажатие",
 {1,"КнопкаДополнительныеДействияФормыНажатие",
 {1,1,
@@ -24839,126 +24807,9 @@ stnYsORWLfJX1o9Kgi2rFtFJbWLNdq+NmWO78VuAAQCvqWY4vpJZwQAAAABJRU5E
 rkJggg==}
 },0}
 },
-{6,3f09fcee-eebc-4776-baa2-1b09bdd29517,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КнопкаДополнительныеДействияФормыНажатие",
-{1,"КнопкаДополнительныеДействияФормыНажатие",
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},7,
-{1,1,
-{"ru","Переотправить данные об алкоголе"}
-},
-{1,1,
-{"ru","Переотправить данные об алкоголе"}
-},
-{3,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhk
-iAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGUSURBVDiN
-nZM/a8JAGIffpEeTNDFylVYhCZKhuLh1KFLoV3Bwahc/QYcODkIXtw5S3Do4qEvB
-SejQtV3bqYtgq0sVBFMQjJ7xT5Lr5KLXVPzBLcdzD7/3uOMopbCeYrF443meiTEe
-UkrpZDI59H2/lcvlHtZZtHEaAHRdT5qmmbBtGyRJAowxtFotFsoWIITkUCi01DQN
-FEUB27YBISRuJcjn85FEr3c2bjT2Zd+njixT2/P4KcfFIJ3+X9Dv9ye9dvv4o9k8
-OJVlPwbA9QjhOqkUumQ04Nc3arXaXAyHRzIhELUs/sSyuCNCQFBVizXChgAAQNX1
-d8TzIACABgA0EvH3DKOytSAcj1+hTOZzGI3St0TC/U6nn25LpXsWC5TSP1elXH6u
-Vat3QQyzwSqionz5lHaCGOY7WIUQQhzHCRQENlgsFuA4znBngaqqCGOc3ElQKBQQ
-QigqiqIZJOBYv7Fer18bhnE+GAwuBEEgkiS9dLvdx2w2+7rOMi/Rdd3uaDTSlsvl
-1HXd+Xg87s9msx8W+wtNAsYdXG2+UAAAAABJRU5ErkJggg==}
-},0}
-},
-{6,03ba33b4-dca5-4e51-a5d7-e57ea113f4d1,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КнопкаДополнительныеДействияФормыНажатие",
-{1,"КнопкаДополнительныеДействияФормыНажатие",
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},7,
-{1,1,
-{"ru","Показать XML файл"}
-},
-{1,1,
-{"ru","Показать XML файл"}
-},
-{3,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhk
-iAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3Nj
-YXBlLm9yZ5vuPBoAAAG5SURBVDiNlZMxi9RQFIW/e19mF3ELQVCwUNCtt3ALt7O1
-UlgHG0t/kpW1lTBbDLZjYSU4CKMjrIWIisVOa0gmL8l71yLJ7GRmFbxwICHvfOe8
-l0TMDBG5BRzyf/PJzL4m7c1hUfiTsvSIKCIgIkhzgWw4kyRhMBg8BlYAvPdkeYaq
-wzldAXpq14qcI1cAUcE5h6o2EkFUe+bOeCFARc7NrUSkAW1sR1UvaNACXGdea9FB
-unXrDXQTwNlvqhdvG1AZ8c/foKr4l+9gkW4Beg3iqylkJTsPDlBV4rcz3I0riAg7
-R3fIT6bo5V32nt3fboAIIIgo6pptVJ9/4W5faxITh4WIlfVfGgC7T49gkeJfzxjs
-X6f6+JNLD+8iIizHH9h7cg9382r/ozAzgOPCe8vy3IqisLIsraoqq+vaQggWY7Sq
-qizPc0vT1Lz3ETg2s36D7l1vKoRAmqYsFguSJGE2m02B014D770tl8ut9BCCZVlm
-8/ncsiyz8Xj8HTgAxMw2D7E/IoKZUdfNwU0mkx/D4fARMLc2edWgDmErOcZoIQQr
-iiKORqP368mdpP2d99uH/5pT4MsquZ0/U/H9Hz5P2jYAAAAASUVORK5CYII=}
-},0}
-},
-{6,383c9ee5-ce9e-41c4-a858-3c3ce0ed93e7,1,e1692cc2-605b-4535-84dd-28440238746c,
-{3,"КнопкаДополнительныеДействияФормыНажатие",
-{1,"КнопкаДополнительныеДействияФормыНажатие",
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{1,1,
-{"ru","Кнопка дополнительные действия формы нажатие"}
-},
-{3,0,
-{0},"",-1,-1,1,0},
-{0,0,0}
-}
-},7,
-{1,1,
-{"ru","Связанные сообщения"}
-},
-{1,1,
-{"ru","Связанные сообщения"}
-},
-{3,3,
-{0},"",-1,-1,0,
-{
-{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
-ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAbhJREFUeNpi/P//PwMIMDIypgOpmSC2
-QWARg4CKBcN/TiGQBAMG+P+X4UCjK5jJgiS8Gcb48O4NAz9IMwT4AbEUkrq9QHwb
-xkE2IBCIp4IYDw4uYvjw8CKDflw30DYGhXnFjhO/ff/NcOXWM4YZe+7lA5UwAfFN
-BigDBjYiu/LDg4sMDw8sYmD495fj95+/DJ9//GL4/OUbw7IK14lAMX+YOmQDQoFY
-BogL4fT/fzIM//5wMTIxMrCwMDG8fveBYcG6wwyM39/rYvPCGiB+AsT9UH6/gKwm
-A8gAJmBAMjMzMrg6GDDwcLAx7Lry9jk2F0Qje0FATpuBX0YDZAA3GwszAx8nOwM/
-FzsDJxsLWAybC5bDGAqWgQwKFsAw/f0dGIj/PsZXL9yGbDgjI9NHbAYkAnEDOBaO
-r2dQsI+Dxvn/KqAhqOng5ycGbAYshCYoBnmg5v9svDDrMNMBBx9mOgBqzABS5SD2
-Q2A6+AhMB3qxXSSlgzkY6eDgYpLSQRgQA+ONYQmc/v9Pk5R00AqlY2C0gAzhdMDC
-gAMIyGoB04E6Sjr49+8/A4iNKx3AASgNyFsEEJUOAAIMAIr5uM/9ipTUAAAAAElF
-TkSuQmCC}
-},0}
-},
-{6,101c2f2f-70b7-4767-ae1d-8be6c380f2bf,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,a2cf1b9c-5de0-4b8d-b7d8-5dde4f9b6e95,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
+{6,a8ddc3ab-f2c8-4772-91d1-a90b67e68498,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"КнопкаДополнительныеДействияФормыНажатие",
 {1,"КнопкаДополнительныеДействияФормыНажатие",
 {1,1,
@@ -25003,53 +24854,202 @@ fH8AinS1qbm1bmzsQxozPPSEHQ0NfV1zv/oKffxKdLaWyMnDeZ9P/vfo6B5Q2zKh
 JsTP9tMb7Ddsc3sB/BFgABdNb6HFHga9AAAAAElFTkSuQmCC}
 },0}
 },
-{6,15d3d235-7d01-4c3f-bdea-5f0c9c71fe04,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,3},0},2,
-{5,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,3,0,12,101c2f2f-70b7-4767-ae1d-8be6c380f2bf,
+{6,6ec86fb1-b31d-4298-94e4-c546727fcc7f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,3},0},
+{6,b1dee6d2-bfc1-4734-b2d0-f6f84515b986,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КнопкаДополнительныеДействияФормыНажатие",
+{1,"КнопкаДополнительныеДействияФормыНажатие",
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},7,
+{1,1,
+{"ru","Связанные сообщения"}
+},
+{1,1,
+{"ru","Связанные сообщения"}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAbhJREFUeNpi/P//PwMIMDIypgOpmSC2
+QWARg4CKBcN/TiGQBAMG+P+X4UCjK5jJgiS8Gcb48O4NAz9IMwT4AbEUkrq9QHwb
+xkE2IBCIp4IYDw4uYvjw8CKDflw30DYGhXnFjhO/ff/NcOXWM4YZe+7lA5UwAfFN
+BigDBjYiu/LDg4sMDw8sYmD495fj95+/DJ9//GL4/OUbw7IK14lAMX+YOmQDQoFY
+BogL4fT/fzIM//5wMTIxMrCwMDG8fveBYcG6wwyM39/rYvPCGiB+AsT9UH6/gKwm
+A8gAJmBAMjMzMrg6GDDwcLAx7Lry9jk2F0Qje0FATpuBX0YDZAA3GwszAx8nOwM/
+FzsDJxsLWAybC5bDGAqWgQwKFsAw/f0dGIj/PsZXL9yGbDgjI9NHbAYkAnEDOBaO
+r2dQsI+Dxvn/KqAhqOng5ycGbAYshCYoBnmg5v9svDDrMNMBBx9mOgBqzABS5SD2
+Q2A6+AhMB3qxXSSlgzkY6eDgYpLSQRgQA+ONYQmc/v9Pk5R00AqlY2C0gAzhdMDC
+gAMIyGoB04E6Sjr49+8/A4iNKx3AASgNyFsEEJUOAAIMAIr5uM/9ipTUAAAAAElF
+TkSuQmCC}
+},0}
+},
+{6,783a07a9-6541-4b64-84d8-35815fac5e27,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КнопкаДополнительныеДействияФормыНажатие",
+{1,"КнопкаДополнительныеДействияФормыНажатие",
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},7,
+{1,1,
+{"ru","Прекратить обработку заказа"}
+},
+{1,1,
+{"ru","Прекратить обработку заказа"}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuklEQVR4Xs2TMQ6D
+IBiFfwzaOzi4MrDYU3ABO9uj1blegFPo4oAX0COImtAiabuABlz6lheSl+/lzwtI
+KQVnhLVV1SN/W+MJuJblvcVg1BTFDXxU109diD4AWNcVQvRHgGVZNu+6bhdAKXWf
+IIQAxtgugHMOhJDvO/I+wWTtJ2RZtjXsSGd01r1Cmqbwg86bx3Fiaz9eQUoDQCgK
+m3GepQlhHAaYJgNIksshIO970bpC4zjYALm209/5BZ9oV6cSeBbHAAAAAElFTkSu
+QmCC}
+},0}
+},
+{6,03065f53-b558-4ed6-8af3-d505fefd5bc7,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КнопкаДополнительныеДействияФормыНажатие",
+{1,"КнопкаДополнительныеДействияФормыНажатие",
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},7,
+{1,1,
+{"ru","Прекратить обработку сообщения"}
+},
+{1,1,
+{"ru","Прекратить обработку сообщения"}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuklEQVR4Xs2TMQ6D
+IBiFfwzaOzi4MrDYU3ABO9uj1blegFPo4oAX0COImtAiabuABlz6lheSl+/lzwtI
+KQVnhLVV1SN/W+MJuJblvcVg1BTFDXxU109diD4AWNcVQvRHgGVZNu+6bhdAKXWf
+IIQAxtgugHMOhJDvO/I+wWTtJ2RZtjXsSGd01r1Cmqbwg86bx3Fiaz9eQUoDQCgK
+m3GepQlhHAaYJgNIksshIO970bpC4zjYALm209/5BZ9oV6cSeBbHAAAAAElFTkSu
+QmCC}
+},0}
+},
+{6,c09d9f07-9590-40e4-8ab2-14c4129c9570,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
+{6,a85a54ad-44b0-4685-964a-898ff709b480,1,e1692cc2-605b-4535-84dd-28440238746c,
+{3,"КнопкаДополнительныеДействияФормыНажатие",
+{1,"КнопкаДополнительныеДействияФормыНажатие",
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{1,1,
+{"ru","Кнопка дополнительные действия формы нажатие"}
+},
+{3,0,
+{0},"",-1,-1,1,0},
+{0,0,0}
+}
+},7,
+{1,1,
+{"ru","Перезаполнить документ в 1С"}
+},
+{1,1,
+{"ru","Перезаполнить документ в 1С"}
+},
+{3,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK
+6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGdSURBVDjL
+lZNLSwJhFIa1Rb8iIWhRQUlluuoftDEtC5TKSgINily1CmoT0kJBqwlSaBGBLVxI
+tGgZQQQVFe3bKN7wOjqO2tucwRGvqAMPMzDf+8w5ZzgyADLhGhJQCWi6MCwwQBkJ
+WVWg4jguVSqVKuVyGe0Q3sPtdruaJZJAQ+FcLgeWZWuk02kkk0lEIhFREg6H4fF4
+GiR0yUlABwqFAorFongnstksUqkUotGoKMjn86CPMAwjSloEFJYgAQUymQxisVhL
+S9WZyBsEQhu1A/RMfUutxONxsZJQKNRZ0Ey9hCqheSQSid4F9RJqh2ZCor4EBM/z
+4lxIQvQtoCp2HtexfW+CObAM062uu4BCElSBJWjEzc8Vrr8Y6L3zvQsoTKz6F+H7
+PAPz7oLRp8eodmSjp7/geDqG2b8Me9CK8zcnXK8O7AWsmDtUF9UHUw/1gr+2O8Bz
+sPm3YLvbhPPlBI7nI6xc6jC9P/Gr3B0flHZhVpgyKwQ6LpPFtwaTdwmGCy0MpwsV
+WsD6ZVKQpNs6z9iV35PWsY/q6iso+w9crJoc0rRwaAAAAABJRU5ErkJggg==}
+},0}
+},2,
+{5,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,3,0,12,a8ddc3ab-f2c8-4772-91d1-a90b67e68498,
 {8,"ОтвязатьДокумент",0,1,
 {1,1,
 {"ru","Отвязать сообщение от документа 1С"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,5,1e2,0,3,1,0,0,0,0},aa5cf3a5-83df-4626-9c76-5f35338b8033,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,5,1e2,0,3,1,0,0,0,0},a85a54ad-44b0-4685-964a-898ff709b480,
 {8,"ПерезаполнитьДокумент",0,2,
 {1,1,
 {"ru","Перезаполнить документ в 1С"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,6,1e2,0,3,1,0,0,0,0},24bf1aec-532b-4767-94e9-8ca969f8bbf1,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,6,1e2,0,3,1,0,0,0,0},528b2f55-9237-49ba-bc20-c652a23556de,
 {8,"ПривязатьСообщение",0,2,
 {1,1,
 {"ru","Привязать сообщение к документу в 1С"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,7,1e2,0,3,1,0,0,0,0},56e243cf-371f-4407-9222-92b19866c473,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,7,1e2,0,3,1,0,0,0,0},783a07a9-6541-4b64-84d8-35815fac5e27,
 {8,"ПрекратитьОбработкуЗаказа",0,3,
 {1,1,
 {"ru","Прекратить обработку заказа"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,8,1e2,0,3,1,0,0,0,0},4f3f2b7c-e900-4693-9e08-d3c36305bdac,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,8,1e2,0,3,1,0,0,0,0},03065f53-b558-4ed6-8af3-d505fefd5bc7,
 {8,"ПрекратитьОбработкуСообщения",0,4,
 {1,1,
 {"ru","Прекратить обработку сообщения"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,16,1e2,0,3,1,0,0,0,0},f5f9d650-30c6-42e1-bdb0-9ce09c7e6fb7,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,16,1e2,0,3,1,0,0,0,0},c09d9f07-9590-40e4-8ab2-14c4129c9570,
 {8,"Разделитель",0,1,
 {1,1,
 {"ru","Разделитель"}
-},0,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,9,1e2,2,0,1,0,0,0,0},03ba33b4-dca5-4e51-a5d7-e57ea113f4d1,
+},0,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,9,1e2,2,0,1,0,0,0,0},6133d01f-978a-4b72-8a62-f3a3ef29c002,
 {8,"ОткрытьФайл",0,4,
 {1,1,
 {"ru","Показать XML файл"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,10,1e2,0,3,1,0,0,0,0},383c9ee5-ce9e-41c4-a858-3c3ce0ed93e7,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,10,1e2,0,3,1,0,0,0,0},b1dee6d2-bfc1-4734-b2d0-f6f84515b986,
 {8,"НайтиСвязанныеСообщения",0,5,
 {1,1,
 {"ru","Связанные сообщения"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,11,1e2,0,3,1,0,0,0,0},e4ad98bd-ed73-4095-987e-ac49a49f1bf4,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,11,1e2,0,3,1,0,0,0,0},a2cf1b9c-5de0-4b8d-b7d8-5dde4f9b6e95,
 {8,"Разделитель1",0,2,
 {1,1,
 {"ru","Разделитель"}
-},0,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,12,1e2,2,0,1,0,0,0,0},3f09fcee-eebc-4776-baa2-1b09bdd29517,
+},0,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,12,1e2,2,0,1,0,0,0,0},3c0b55f3-62bf-474a-9116-8051acb73a05,
 {8,"ПереотправитьALCRPT",0,6,
 {1,1,
 {"ru","Переотправить данные об алкоголе"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,13,1e2,0,3,1,0,0,0,0},bf59845e-b1ba-445a-8a66-486d3ed6232d,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,13,1e2,0,3,1,0,0,0,0},3e686bf3-ecb3-41e6-8980-59f844a67a70,
 {8,"ПереотправитьСообщение",0,6,
 {1,1,
 {"ru","Переотправить сообщение"}
-},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,14,1e2,0,3,1,0,0,0,0},dd47a807-4611-4024-9140-982aca98f6fa,
+},1,47eb4d2b-d3a6-4ff8-aa46-b11461bd3f4b,14,1e2,0,3,1,0,0,0,0},2ad6821b-894b-4734-ad22-9b47e6d2ae99,
 {8,"УдалитьСообщение",0,7,
 {1,1,
 {"ru","Удалить сообщение"}
@@ -25058,7 +25058,7 @@ JsTP9tMb7Ddsc3sB/BFgABdNb6HFHga9AAAAAElFTkSuQmCC}
 {0}
 }
 },
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,15d3d235-7d01-4c3f-bdea-5f0c9c71fe04,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,1,6ec86fb1-b31d-4298-94e4-c546727fcc7f,
 {8,"Действия",0,1,
 {1,1,
 {"ru","Действия"}
@@ -25099,7 +25099,7 @@ JsTP9tMb7Ddsc3sB/BFgABdNb6HFHga9AAAAAElFTkSuQmCC}
 {0}
 }
 }
-},1067,537,1,0,1,4,4,730},
+},1067,537,1,0,1,4,4,731},
 {
 {2},275,
 {67,

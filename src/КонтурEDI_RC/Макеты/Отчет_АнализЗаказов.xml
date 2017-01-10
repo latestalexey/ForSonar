@@ -42,7 +42,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Формат</parameter>
+						<parameter>Format</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -72,9 +72,6 @@
 				<role>
 					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
 				</role>
-				<valueType>
-					<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d6p1:CatalogRef.КонтурEDI_ДополнительныеСправочники</Type>
-				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ЦенаБезНДС</dataPath>
@@ -95,7 +92,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Формат</parameter>
+						<parameter>Format</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -119,7 +116,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Формат</parameter>
+						<parameter>Format</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -205,7 +202,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Формат</parameter>
+						<parameter>Format</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -229,7 +226,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Формат</parameter>
+						<parameter>Format</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>

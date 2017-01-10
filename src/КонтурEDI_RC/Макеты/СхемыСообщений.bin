@@ -458,6 +458,7 @@
 				</xs:choice>
 				<xs:attribute name="status" type="xs:string"/>
 				<xs:attribute name="type" type="xs:string"/>
+				<xs:attribute name="name" type="xs:string"/>
 				<xs:anyAttribute namespace="##any" processContents="lax"/>
 			</xs:extension>
 		</xs:complexContent>

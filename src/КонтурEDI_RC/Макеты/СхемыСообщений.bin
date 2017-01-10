@@ -121,6 +121,7 @@
 			<xs:element name="ultimateCustomer" type="tns:contractor" minOccurs="0"/>
 			<xs:element name="warehouseKeeper" type="tns:contractor" minOccurs="0"/>
 			<xs:element name="transportation" type="tns:transportationType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="despatchParty" type="tns:contractor" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:choice>
 		<xs:anyAttribute namespace="##any" processContents="lax"/>
@@ -305,6 +306,7 @@
 								<xs:element name="warehouseKeeper" type="tns:contractor" minOccurs="0"/>
 								<xs:element name="transportation" type="tns:transportationType" minOccurs="0" maxOccurs="unbounded"/>
 								<xs:element name="transportBy" type="xs:string" minOccurs="0"/>
+								<xs:element name="despatchParty" type="tns:contractor" minOccurs="0" maxOccurs="unbounded"/>
 								<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 							</xs:choice>
 							<xs:anyAttribute namespace="##any" processContents="lax"/>
@@ -340,6 +342,7 @@
 								<xs:element name="warehouseKeeper" type="tns:contractor" minOccurs="0"/>
 								<xs:element name="transportation" type="tns:transportationType" minOccurs="0" maxOccurs="10"/>
 								<xs:element name="transportBy" type="xs:string" minOccurs="0"/>
+								<xs:element name="despatchParty" type="tns:contractor" minOccurs="0" maxOccurs="unbounded"/>
 								<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
 							</xs:choice>
 							<xs:anyAttribute namespace="##any" processContents="lax"/>
@@ -745,7 +748,7 @@
 	</xs:complexType>
 	<xs:complexType name="russianAddressType">
 		<xs:choice>
-			<xs:element name="regionCode" type="xs:string" minOccurs="0"/>
+			<xs:element name="regionISOCode" type="xs:string" minOccurs="0"/>
 			<xs:element name="district" type="xs:string" minOccurs="0"/>
 			<xs:element name="city" type="xs:string" minOccurs="0"/>
 			<xs:element name="settlement" type="xs:string" minOccurs="0"/>

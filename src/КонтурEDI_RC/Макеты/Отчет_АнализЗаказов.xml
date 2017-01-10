@@ -42,7 +42,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Format</parameter>
+						<parameter>Формат</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -92,7 +92,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Format</parameter>
+						<parameter>Формат</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -116,7 +116,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Format</parameter>
+						<parameter>Формат</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -202,7 +202,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Format</parameter>
+						<parameter>Формат</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>
@@ -226,7 +226,7 @@
 				</valueType>
 				<appearance>
 					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
-						<parameter>Format</parameter>
+						<parameter>Формат</parameter>
 						<value xsi:type="xs:string">ЧДЦ=2</value>
 					</item>
 				</appearance>

@@ -1,0 +1,82 @@
+﻿<xs:schema xmlns:tns="http://edi.kontur.ru/1c/xsd/partin1c/v2" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://edi.kontur.ru/1c/xsd/partin1c/v2" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:complexType name="DP">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="gln" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="inn" type="xs:string"/>
+		<xs:attribute name="kpp" type="xs:string"/>
+		<xs:attribute name="address" type="xs:string"/>
+		<xs:attribute name="region" type="xs:string"/>
+		<xs:attribute name="index" type="xs:string"/>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="company">
+		<xs:choice>
+			<xs:element name="org" type="tns:org" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="DP" type="tns:DP" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="default1Csettings" nillable="true" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="settingsItem" type="tns:settingsItem" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:anyAttribute namespace="##any" processContents="lax"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:attribute name="gln" type="xs:string"/>
+		<xs:attribute name="type" type="xs:string"/>
+		<xs:attribute name="dateUpd" type="xs:dateTime"/>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="org">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="gln" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="inn" type="xs:string"/>
+		<xs:attribute name="kpp" type="xs:string"/>
+		<xs:attribute name="address" type="xs:string"/>
+		<xs:attribute name="region" type="xs:string"/>
+		<xs:attribute name="index" type="xs:string"/>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="organizationList">
+		<xs:sequence>
+			<xs:element name="org" type="tns:organizationListItem" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="organizationListItem">
+		<xs:sequence>
+			<xs:element name="default1Csettings" nillable="true" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="settingsItem" type="tns:settingsItem" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:anyAttribute namespace="##any" processContents="lax"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="code" type="xs:string" use="required"/>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="gln" type="xs:string" use="required"/>
+		<xs:attribute name="dateUpd" type="xs:dateTime"/>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="settingsItem">
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="value" type="xs:anyType"/>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+</xs:schema>

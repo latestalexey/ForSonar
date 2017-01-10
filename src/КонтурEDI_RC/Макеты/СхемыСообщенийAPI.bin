@@ -1,0 +1,217 @@
+﻿<xs:schema xmlns:tns="http://edi-api.kontur.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://edi-api.kontur.ru" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:complexType name="BoxDocumentsSettings">
+		<xs:all>
+			<xs:element name="DocumentsSettingsForPartner" type="tns:DocumentsSettingsForPartner1" nillable="true"/>
+			<xs:element name="BoxId" type="xs:string"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:all>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="BoxEvent">
+		<xs:choice>
+			<xs:element name="_EventContent" type="tns:EventContent" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="BoxEventBatch">
+		<xs:choice>
+			<xs:element name="Events" type="tns:Events" nillable="true" minOccurs="0"/>
+			<xs:element name="LastEventId" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="BoxInfo">
+		<xs:choice>
+			<xs:element name="Id" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="PartyId" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Gln" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="IsTest" type="xs:boolean" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="Boxes">
+		<xs:choice>
+			<xs:element name="BoxInfo" type="tns:BoxInfo" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="BoxesInfo">
+		<xs:choice>
+			<xs:element name="Boxes" type="tns:Boxes" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="DocumentDetails">
+		<xs:choice>
+			<xs:element name="DocumentType" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="DocumentIsTest" type="xs:boolean" nillable="true" minOccurs="0"/>
+			<xs:element name="DocumentDate" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="DocumentSettings1">
+		<xs:choice>
+			<xs:element name="DocumentSettings" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="DocumentsSettingsForPartner1">
+		<xs:choice>
+			<xs:element name="DocumentsSettingsForPartner" type="tns:DocumentsSettingsForPartner2" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="DocumentsSettingsForPartner2">
+		<xs:choice>
+			<xs:element name="DocumentSettings" type="tns:DocumentSettings1" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="EventContent">
+		<xs:choice>
+			<xs:element name="InboxMessageMeta" type="tns:MessageMeta" nillable="true" minOccurs="0"/>
+			<xs:element name="OutboxMessageMeta" type="tns:MessageMeta" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="Events">
+		<xs:choice>
+			<xs:element name="BoxEvent" type="tns:BoxEvent" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="ForeignAddressInfo">
+		<xs:sequence>
+			<xs:element name="CountryCode" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Address" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="IPInfo">
+		<xs:choice>
+			<xs:element name="Inn" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="FirstName" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="MiddleName" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="LastName" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="MessageMeta">
+		<xs:choice>
+			<xs:element name="DocumentDetails" type="tns:DocumentDetails" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="Organization">
+		<xs:sequence>
+			<xs:element name="OrganizationDate" nillable="true" minOccurs="0"/>
+			<xs:element name="OrganizationInfo" type="tns:OrganizationInfo" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="OrganizationCatalogueInfo">
+		<xs:sequence>
+			<xs:element name="Organizations" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Organization" type="tns:Organization" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DeliveryPoints" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Organization" type="tns:Organization" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:anyAttribute namespace="##any" processContents="lax"/>
+				</xs:complexType>
+			</xs:element>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="OrganizationInfo">
+		<xs:choice>
+			<xs:element name="PartyAddress" type="tns:PartyAddress" nillable="true" minOccurs="0"/>
+			<xs:element name="RussianPartyInfo" type="tns:RussianPartyInfo" nillable="true" minOccurs="0"/>
+			<xs:element name="Gln" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="PartiesInfo">
+		<xs:all>
+			<xs:element name="Parties">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="PartyInfo" type="tns:partyInfo" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:all>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="PartyAddress">
+		<xs:choice>
+			<xs:element name="RussianAddressInfo" type="tns:RussianAddressInfo" nillable="true" minOccurs="0"/>
+			<xs:element name="ForeignAddressInfo" type="tns:ForeignAddressInfo" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="RussianAddressInfo">
+		<xs:choice>
+			<xs:element name="City" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="House" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="PostalCode" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="RegionCode" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Street" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="District" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Village" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Flat" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="RussianPartyInfo">
+		<xs:sequence>
+			<xs:element name="ULInfo" type="tns:ULInfo" nillable="true" minOccurs="0"/>
+			<xs:element name="IPInfo" type="tns:IPInfo" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="ULInfo">
+		<xs:choice>
+			<xs:element name="Inn" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Kpp" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="Name" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+	<xs:complexType name="partyInfo">
+		<xs:choice>
+			<xs:element name="OrganizationCatalogueUpdateTime" type="xs:dateTime" nillable="true" minOccurs="0"/>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:anyAttribute namespace="##any" processContents="lax"/>
+	</xs:complexType>
+</xs:schema>

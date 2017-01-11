@@ -49,8 +49,6 @@
 3c9a65dd-5ce4-4666-9e2c-443a55d2fdfc.0-->Form\ФормаТочкиДоставкиСторонние_Список
 43ee4a80-43da-4d5e-af63-245d973729da-->und\43ee4a80-43da-4d5e-af63-245d973729da
 43ee4a80-43da-4d5e-af63-245d973729da.0-->Form\ФормаСервис_ПечатьДокументов
-475bb0dd-0c2e-4c4b-8f7c-9c4f2b7c1df6-->und\475bb0dd-0c2e-4c4b-8f7c-9c4f2b7c1df6
-475bb0dd-0c2e-4c4b-8f7c-9c4f2b7c1df6.0-->und\475bb0dd-0c2e-4c4b-8f7c-9c4f2b7c1df6.0
 47a1f6a3-7114-4ff8-8e2a-63c69417cdc7-->und\47a1f6a3-7114-4ff8-8e2a-63c69417cdc7
 47a1f6a3-7114-4ff8-8e2a-63c69417cdc7.0-->und\47a1f6a3-7114-4ff8-8e2a-63c69417cdc7.0
 4b36ee9f-3833-477d-8eed-aa62e82b5801-->und\4b36ee9f-3833-477d-8eed-aa62e82b5801
@@ -251,6 +249,8 @@ f9162018-5fea-4afc-9db1-233027cb0f51-->und\f9162018-5fea-4afc-9db1-233027cb0f51
 f9162018-5fea-4afc-9db1-233027cb0f51.0-->und\f9162018-5fea-4afc-9db1-233027cb0f51.0
 f9dae27d-bd41-4e03-830c-e9c350bb4987-->und\f9dae27d-bd41-4e03-830c-e9c350bb4987
 f9dae27d-bd41-4e03-830c-e9c350bb4987.0-->Form\___________________Формы_справочников___________________
+ffaec90f-c0be-4db0-bfc1-665cd5747357-->und\ffaec90f-c0be-4db0-bfc1-665cd5747357
+ffaec90f-c0be-4db0-bfc1-665cd5747357.0-->und\ffaec90f-c0be-4db0-bfc1-665cd5747357.0
 root-->und\root
 version-->und\version
 versions-->und\versions

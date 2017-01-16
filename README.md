@@ -1,0 +1,2 @@
+# ForSonar
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4c9259507783400882bb23536c364565)](https://www.codacy.com/app/KrapivinAndrey/ForSonar?utm_source=github.com&utm_medium=referral&utm_content=KrapivinAndrey/ForSonar&utm_campaign=badger)
